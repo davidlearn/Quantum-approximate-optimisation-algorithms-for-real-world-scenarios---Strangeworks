@@ -19,5 +19,5 @@ Team Members:
 - Discussed how to assess how to measure QAOA resolution vs ultimate optimal solution
 - investigate how to optiize QAOA for accuracy and computing time in term of the initalization of variational parameter of ($\boldsymbol{\beta}$, $\boldsymbol{\gamma}$) and the circuit depth <b>p</b>
 - Investigate how to scale QAOA to solve large optimization problems with the limited qubit size in current quantun computers.
-
+### The detailed information is avaialbe in <a href="https://github.com/davidlearn/Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks/blob/main/QAOA_maxcut_jumpstart.ipynb"> QAOA_maxcut_jumpstart.ipynb.</a>
 ### Finding
