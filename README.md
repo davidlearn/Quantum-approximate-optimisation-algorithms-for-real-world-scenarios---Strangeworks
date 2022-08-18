@@ -1,4 +1,4 @@
-# Quantum-approximate-optimisation-algorithms-for-real-world-scenarios---Strangeworks
+# Quantum Approximate Optimisation Algorithms for Real World Scenarios --- Strangeworks
 Womanium Quantum Hackathon 2022
 
 ### Team Jumpstart Quantum Members
