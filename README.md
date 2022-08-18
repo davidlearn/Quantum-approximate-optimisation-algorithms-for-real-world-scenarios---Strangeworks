@@ -9,9 +9,15 @@ For many real world scenarios we do not necessarily need the most optimal soluti
 
 ### Team Jumpstart Quantum
 Team Members:
- 
-     David Liu, Purdue University Fort Wayne
-     Jiaqi Guo, Carnegie Mellon University
-     Yiping Wang, Northwestern University
+ - David Liu, Discord: 708042604654100561  Github: davidlearn   Email: Liud@pfw.edu
+ - Yiping Wang, Discord: 999347935630348359  Github: wyp7         Email: yipingwang2023@u.northwestern.edu
+ - Jiaqi Guo,   Discord: 1004397306063376485 Github: emrysguo     Email: jiaqiguo@andrew.cmu.edu
 
-### Challenge Goal
+- understand how QAOA solves combinatorial optimization problems insh even NISQ era and potenitally beats classicial algorithms
+- explore how QAOA solves a weight Max-Cut optimization problem in Qiskit quantum circuit implementation
+- study how QAOA circuit depth p. measurement shots, and the pertange of quantum output iprocessed as input to the classicall optimization solver affect the <b>optimization</b> value (energey in Hamiltonian system) and <b>cost</b>.
+- Discussed how to assess how to measure QAOA resolution vs ultimate optimal solution
+- investigate how to optiize QAOA for accuracy and computing time in term of the initalization of variational parameter of ($\boldsymbol{\beta}$, $\boldsymbol{\gamma}$) and the circuit depth <b>p</b>
+- Investigate how to scale QAOA to solve large optimization problems with the limited qubit size in current quantun computers.
+
+### Finding
