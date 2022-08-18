@@ -7,7 +7,7 @@ Team Members:
  - Yiping Wang, Discord: 999347935630348359  Github: wyp7         Email: yipingwang2023@u.northwestern.edu
  - Jiaqi Guo,   Discord: 1004397306063376485 Github: emrysguo     Email: jiaqiguo@andrew.cmu.edu
 
-### Team Jumpstart Quantum Hackthon 
+### Team Jumpstart Quantum Hackathon 
 Quantum Approximate Optimization for Real World Scenarios --- Strangeworks
 
 ## Challenge Introduction -- Strangeworks
