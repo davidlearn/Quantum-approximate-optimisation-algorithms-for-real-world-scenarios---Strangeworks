@@ -71,6 +71,7 @@ In the experiment, we demonstrate the variational parameters to be depth <b>p</b
 
     ![](figures/Np4_100to700_100.png)
 - p: 1 to 8, shots: 200, quantum measurefor average over top: 20%
+
     ![](figures/Np1to8_200_20.png)
 
    Here we also measure for p = 8 and the histogram is plotted below:
