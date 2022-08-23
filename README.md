@@ -37,6 +37,7 @@ In the experiment, we demonstrate the variational parameters to be depth <b>p</b
     ![](figures/p1to8_200_100.png)
     
     Here we measure for p = 8 and the histogram is plotted below:
+  
     ![](figures/p1to8_200_100test.png)
 - p: 4, shots: 100 to 700, quantum measure average over top: 100%
   
@@ -50,6 +51,7 @@ In the experiment, we demonstrate the variational parameters to be depth <b>p</b
     ![](figures/p1to8_200_20.png)
 
   Here we also measure for p = 8 and the histogram is plotted below:
+
     ![](figures/p1to8_200_20test.png)
 
   The conclusion is that both solutions with <b>p</b> = 4, shots 200 and two different quantum measure average over top are equally optimal. Also, without knowing the eact solutions for the large problem, we may need to see the trend pf the solution provided by p and determine the best results we can get.
@@ -75,6 +77,7 @@ In the experiment, we demonstrate the variational parameters to be depth <b>p</b
     ![](figures/Np1to8_200_20.png)
 
    Here we also measure for p = 8 and the histogram is plotted below:
+  
     ![](figures/Np1to8_200_20test.png)
 
    The results show on the noisy simulator, only one of the two optimal solutions is obtained with probablity 10%, and post processing average over top 20% measurements does not have advantages. 
