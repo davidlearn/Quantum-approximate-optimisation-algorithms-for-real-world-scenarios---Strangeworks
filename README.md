@@ -23,13 +23,14 @@ For many real world scenarios we do not necessarily need the most optimal soluti
 - explore how QAOA solves a weight Max-Cut optimization problem in Qiskit quantum circuit implementation
 - study how QAOA circuit depth <b>p</b> measurement shots, and the percetange of quantum output processed as input to the classical optimization solver affect the <b>optimization</b> value (energy in Hamiltonian system) and <b>cost</b>
 - Discussed how to assess how to measure QAOA resolution vs ultimate optimal solution
-- investigate how to optimize QAOA for accuracy and computing time in term of the initialization of variational parameter of (β, $\boldsymbol{\gamma}$) and the circuit depth <b>p</b>
+- investigate how to optimize QAOA for accuracy and computing time in term of the initialization of variational parameter of (β, In addition, we describe ways to optimize QAOA with appropriate initilizations of (β, γ) and <strong>p</strong> values with the current NISQ computers with limitted qubits and quantun circuits.
+) and the circuit depth <b>p</b>
 - Investigate how to scale QAOA to solve large optimization problems with the limited qubit size in current quantum computers
 
 ## Team Challenge Findings
 In the experiment, we demonstrate the variational parameters to be depth <b>p</b>,  shots, and the rate of quantum measure average over top, while the measurement results including energy and the cost of each running. We separately test the experiments in standard qiskit simulator and qiskit noisy simulator for comparing the noise effect in our results. The testing problem here we choose the max-cut as our main focus.
 
-In addition, we describe ways to optimize QAOA with appropriate initilizations of (β, $\boldsymbol{\gamma}$) and <strong>p</strong> values with the current NISQ computers with limitted qubits and quantun circuits.
+In addition, we describe ways to optimize QAOA with appropriate initilizations of (β, γ) and <strong>p</strong> values with the current NISQ computers with limitted qubits and quantun circuits.
 Further, We investigated several ways to sclae QAOA to solve larger optimization problem with the current NISQ computers with limitted qubits and quantun circuits.
 
 QAOA has the potential to solve the large size combinatorial optimization problems and demonstrate the quantum advantage and supremacy. QAOA will help to solve the many of problems such as supply chain optimization, vehicle routing, semiconductor chip design, product or financial assest portfolio optimzation. For NISQ computers, noise environments cause quantum measured outputs spread out widely and the probabilities for optimal solutions are much lower compared to fault tolerant quantum computers. It is very important to develop techniques to initialize the quantum states and variational parameters. For larger problems, we need to investigate the necessary quantum circuit depth p to obtain good and achievable optimization solutions. It will be essential to always minimize the size of quantum circuits for QAOA for any combinatorial optimization problems.
