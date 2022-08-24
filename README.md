@@ -36,7 +36,8 @@ QAOA has the potential to solve the large size combinatorial optimization proble
 
 ## Team Challenge Presentation
 Our team presentation is avaiable here 
-<a href="Jumpstart_QAOA_Presentation.ppt"> Jumpstart QAOA Presentation in ppt</a>
+<a href="Jumpstart_QAOA_Presentation.pptx"> Jumpstart QAOA Presentation in ppt</a>
+
 <a href="Jumpstart_QAOA_Presentation.pdf"> Jumpstart QAOA Presentation in pdf</a>
 
 ### Quantum QAOA Experiments
