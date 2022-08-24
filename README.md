@@ -18,7 +18,7 @@ We find that what many of our partners really want at this stage is to know how 
 This project will involve creating and testing a QAOA algorithm on a chosen graph. The accuracy of this method will then be tested upon varying the number of classical optimization steps, the depth of the quantum circuit and the number of measurements required on the quantum device at each step etc. This will then allow us to define the total classical hardware time and the total quantum hardware time, giving us an initial estimate for the overall cost of running such an algorithm.
 For many real world scenarios we do not necessarily need the most optimal solution, just one that is better than those currently utilized, so we will be judging submissions based on an analysis which balances the overall cost of the routine with the quality of the solution. Additional points will be given for the presentation and interpretation of the data in terms of the viability of these methods as the graph size and complexity are increased. We will also be looking for more advanced offerings, such as methods for post processing the quantum measurement results to better refine the classical solution of the graph and sufficient explorations in the space of connected graphs as well as explorations of the parameter space for the variational coefficients.
 
-## Challenge Objectives
+## Team Challenge Objectives
 - understand how QAOA solves combinatorial optimization problems in even NISQ era and potentially beats classical algorithms
 - explore how QAOA solves a weight Max-Cut optimization problem in Qiskit quantum circuit implementation
 - study how QAOA circuit depth <b>p</b> measurement shots, and the percetange of quantum output processed as input to the classical optimization solver affect the <b>optimization</b> value (energy in Hamiltonian system) and <b>cost</b>
@@ -26,9 +26,20 @@ For many real world scenarios we do not necessarily need the most optimal soluti
 - investigate how to optimize QAOA for accuracy and computing time in term of the initialization of variational parameter of (β, $\boldsymbol{\gamma}$) and the circuit depth <b>p</b>
 - Investigate how to scale QAOA to solve large optimization problems with the limited qubit size in current quantum computers
 
-## Challenge Findings
+## Team Challenge Findings
 In the experiment, we demonstrate the variational parameters to be depth <b>p</b>,  shots, and the rate of quantum measure average over top, while the measurement results including energy and the cost of each running. We separately test the experiments in standard qiskit simulator and qiskit noisy simulator for comparing the noise effect in our results. The testing problem here we choose the max-cut as our main focus.
 
+In addition, We described several ways to sclae QAOA to solve larger optimization problem with the current NISQ computers with limitted qubits and quantun circuits.
+Further, We investigated several ways to sclae QAOA to solve larger optimization problem with the current NISQ computers with limitted qubits and quantun circuits.
+
+QAOA has the potential to solve the large size combinatorial optimization problems and demonstrate the quantum advantage and supremacy. QAOA will help to solve the many of problems such as supply chain optimization, vehicle routing, semiconductor chip design, product or financial assest portfolio optimzation. For NISQ computers, noise environments cause quantum measured outputs spread out widely and the probabilities for optimal solutions are much lower compared to fault tolerant quantum computers. It is very important to develop techniques to initialize the quantum states and variational parameters. For larger problems, we need to investigate the necessary quantum circuit depth p to obtain good and achievable optimization solutions. It will be essential to always minimize the size of quantum circuits for QAOA for any combinatorial optimization problems.
+
+## Team Challenge Presentation
+Our team presentation is avaiable here 
+<a href="Jumpstart_QAOA_Presentation.ppt"> Jumpstart QAOA Presentation in ppt</a>
+<a href="Jumpstart_QAOA_Presentation.pdf"> Jumpstart QAOA Presentation in pdf</a>
+
+### Quantum QAOA Experiments
 ### On a standard Qiskit simulator, the QAOA experiments are run in following conditions:
 - p: 1 to 8, shots: 200, quantum measure average over top: 100%
   
@@ -82,7 +93,6 @@ In the experiment, we demonstrate the variational parameters to be depth <b>p</b
 
    The results show on the noisy simulator, only one of the two optimal solutions is obtained with probablity 10%, and post processing average over top 20% measurements does not have advantages. 
 
-As we can conclude, QAOA has the potential to solve the large size combinatorial optimization problems and demonstrate the quantum advantage and supremacy. QAOA will help to solve the many of problems such as supply chain optimization, vehicle routing, semiconductor chip design, product or financial assest portfolio optimzation. For NISQ computers, noise environments cause quantum measured outputs spread out widely and the probabilities for optimal solutions are much lower compared to fault tolerant quantum computers. It is very important to develop techniques to initialize the quantum states and variational parameters. For larger problems, we need to investigate the necessary quantum circuit depth p to obtain good and achievable optimization solutions. It will be essential to always minimize the size of quantum circuits for QAOA for any combinatorial optimization problems.
 
 ### The coding detailed information is availalbe in <a href="QAOA_jumpstart.ipynb"> QAOA_jumpstart.ipynb</a>, starting from part III.
 
